@@ -1,47 +1,54 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Matheus Lago</title>
 </head>
+
 <body>
-    <a href="#habilidades">Habilidades</a><br>
-    <a href="#sobre">Sobre mim</a>
-   
-    <h1>Matheus Isola Lago</h1>
-    <img id="foto" src="img/Eu.jpg" width="300px">
-    <p><strong><em>Vá e Vença!</em></strong></p>
-    <a href="https://github.com/" target="_blank">GitHub</a><br>
-    <a href="https://www.linkedin.com/in/matheus-lago-9b165879/" target="_blank">LinkdIn</a>
+    <header>
+        <div class="nome">
+            <h1>Matheus Isola Lago</h1>
+        </div>
+        <div class="menu">
+            <a class="link-menu" href="#sobre">Sobre mim</a>
+            <a class="link-menu" href="#habilidades">Habilidades</a>
+            <a class="link-menu" href="https://github.com/" target="_blank">GitHub</a><br>
+            <a class="link-menu" href="https://www.linkedin.com/in/matheus-lago-9b165879/" target="_blank">LinkdIn</a>
+        </div>
+    </header>
+    <main>
 
-    <p id="sobre"><strong>Pai</strong>, estudante da trybe.Brasileiro, morador do Rio de Janeiro, 32 anos, <strong>apaixonado pela família</strong> por guitarra e pela vida.</p>
-    
-    <h2 id="habilidades">Habilidades</h2>
-    <ul>
-        <li>Git</li><br>
-        <li>GitHub</li><br>
-        <li>HTML</li><br>
-        <li>Comprometimento</li><br>
-        <li>Dedicação</li><br>
-        <li>Resiliência</li>
-    </ul>
+        <div class="secao-foto">
+            <img id="foto" src="img/Eu.jpg" width="300px">
+            <div class="texto-foto">
+                <p class="text">Olá Mundo!</p>
+            </div>
+        </div>
 
-    <a href="https://www.treinaweb.com.br/" target="_blank">Importante</a><br><br>
-    <a href="#foto">Imagem</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <div class="secao">
+            <h2 id="sobre">Sobre mim</h2>
+            <p><strong>Pai</strong>, estudante da trybe.Brasileiro, morador do Rio de Janeiro, 32 anos,
+                <strong>apaixonado pela família</strong> por tecnologia e pela vida.
+            </p>
+        </div>
+        <div class="secao">
+            <h2 id="habilidades">Habilidades</h2>
+            <ul type="none">
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>HTML</li>
+                <li>Dedicação</li>
+                <li>Resiliência</li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <p class="text-rodape">2023 - Matheus Lago </p>
+    </footer>
 </body>
+
 </html>
